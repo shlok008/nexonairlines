@@ -746,7 +746,7 @@ banner
 .slide-inner .header-text h2 {
   position: relative;
   z-index: 2;
-  font-size: 56px;
+  font-size: 48px;
   color: #fff;
   font-weight: 700;
   opacity: 1;
@@ -775,7 +775,7 @@ banner
 
 .slide-inner .header-text h2 em {
   font-style: normal;
-  color: #ff511a;
+  color: #00ff33;
 }
 
 .slide-inner .header-text .buttons {
