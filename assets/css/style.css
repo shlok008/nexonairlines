@@ -805,10 +805,13 @@ section.services {
 }
 
 .services .service-item {
+  
   border-radius: 5px;
   padding: 40px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
+  text-justify: inter-word;
+  text-align: justify;
 }
 
 .services .service-item:hover i {
@@ -825,9 +828,10 @@ section.services {
   transition: all .5s;
   float: left;
   font-size: 64px;
-  color: #43ba7f;
+  color: #85c441;
   margin-bottom: 30px;
   margin-right: 30px;
+
 }
 
 
