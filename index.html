@@ -5,11 +5,11 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="description" content="Nexon Airlines is a virtual airlines company and a subsidiary of Nexon Logistics">
   <meta name="author" content="">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
 
   <title>Nexon Airlines - Your Gateway to New Horizons</title>
 
@@ -72,7 +72,7 @@
   <div class="swiper-container" id="top">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="slide-inner" style="background-image:url(assets/images/slide-01.jpg)">
+        <div class="slide-inner" style="background-image:url(assets/images/slide-01.png)">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
@@ -96,7 +96,7 @@
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="slide-inner" style="background-image:url(assets/images/slide-02.jpg)">
+        <div class="slide-inner" style="background-image:url(assets/images/slide-01.png)">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
@@ -121,7 +121,7 @@
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="slide-inner" style="background-image:url(assets/images/slide-03.jpg)">
+        <div class="slide-inner" style="background-image:url(assets/images/slide-01.png)">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
@@ -537,50 +537,7 @@
   <script src="assets/js/tabs.js"></script>
   <script src="assets/js/swiper.js"></script>
   <script src="assets/js/custom.js"></script>
-  <script>
-    var interleaveOffset = 0.5;
-
-    var swiperOptions = {
-      loop: true,
-      speed: 1000,
-      grabCursor: true,
-      watchSlidesProgress: true,
-      mousewheelControl: true,
-      keyboardControl: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      },
-      on: {
-        progress: function () {
-          var swiper = this;
-          for (var i = 0; i < swiper.slides.length; i++) {
-            var slideProgress = swiper.slides[i].progress;
-            var innerOffset = swiper.width * interleaveOffset;
-            var innerTranslate = slideProgress * innerOffset;
-            swiper.slides[i].querySelector(".slide-inner").style.transform =
-              "translate3d(" + innerTranslate + "px, 0, 0)";
-          }
-        },
-        touchStart: function () {
-          var swiper = this;
-          for (var i = 0; i < swiper.slides.length; i++) {
-            swiper.slides[i].style.transition = "";
-          }
-        },
-        setTransition: function (speed) {
-          var swiper = this;
-          for (var i = 0; i < swiper.slides.length; i++) {
-            swiper.slides[i].style.transition = speed + "ms";
-            swiper.slides[i].querySelector(".slide-inner").style.transition =
-              speed + "ms";
-          }
-        }
-      }
-    };
-
-    var swiper = new Swiper(".swiper-container", swiperOptions);
-  </script>
+  <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
