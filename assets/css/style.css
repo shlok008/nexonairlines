@@ -27,7 +27,14 @@ font & reset css
 reset
 --------------------------------------------- 
 */
-html,
+html{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  scroll-behavior: smooth;
+  /* scroll-padding-top: 150px; */
+}
 body,
 div,
 span,
@@ -1814,3 +1821,11 @@ body {
 .bold-subtext {
   font-weight: bold;
 }
+
+/* .social-icon {
+  position: fixed;
+  margin: auto;
+  padding: 0;
+  bottom: 0;
+  right: 0;
+} */
