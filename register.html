@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Mexant Template - Contact page</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+</head>
+
+<body>
+
+
+  
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="Nexon Airlines">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <!-- <li class="has-sub">
+                <a href="javascript:void(0)">Pages</a>
+                <ul class="sub-menu">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="our-services.html">Our Services</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+              </li> -->
+              <li class="scroll-to-section"><a href="#partners">Subsidiaries</a></li>
+              <li><a href="/register">Pilots Hub</a></li>
+            </ul>
+      
+       
+
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="header-text">
+            <h2>Contact Us</h2>
+            <div class="div-dec"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Main Banner Area End ***** -->
+
+
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h6>Want to be a part of our fleet??</h6>
+            <h4>What are you waiting for? Just Fill The Form Now!</h4>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row  ">
+            <div class="col-md-12">
+              <h4 class="font-weight-normal text-muted mb-3" style="color: #000;"><b>BASIC REQUIREMENTS :</b></h4>
+              <p class="te"> • Proficient in English, as it is the primary language used for communication within the airline.<br>
+                • Applicants must not have been banned or involved in any significant violations within other virtual airlines or communities.<br>
+                • Own a working microphone and headset to communicate with air traffic control and other pilots.<br>
+                • Must be active on Nexon <a href="https://discord.gg/nexon" style="color: #85c441;">Discord</a> server and should be actively communicating with the
+                management.</p><br>
+            </div>
+
+          </div>
+
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="contact-form">
+                <div id="success"></div>
+                <div class="col-lg-10 offset-lg-1">
+                  <form onsubmit="sendmail(event) " id="my_form" class="php-email-form">
+                    <div class="row gy-4">
+
+                      <div class="col-lg-6 form-group ">
+                        <label style="color: #000;"><strong>Name</strong></label>
+                        <input type="text" class="form-control p-4 req" id="name" placeholder="Your Name"
+                          required="required" data-validation-required-message="Please enter your name" />
+                        <p class="help-block text-danger"></p>
+                      </div>
+                      <div class="col-lg-6 form-group">
+                        <label style="color: #000; "><strong>Email ID</strong></label>
+                        <input type="email" class="form-control p-4 req" id="email" placeholder="abc@gmail.com"
+                          required="required" data-validation-required-message="Please enter your email" />
+                        <p class="help-block text-danger"></p>
+                      </div>
+
+
+                      <div class="col-lg-6 form-group">
+                        <label style="color: #000; "><strong>Discord ID</strong></label>
+                        <input type="text" class="form-control p-4 req" id="discord" placeholder="ABC#0000"
+                          required="required"
+                          data-validation-required-message="Please enter your Discord ID Username" />
+                        <p class="help-block text-danger"></p>
+                      </div>
+
+                      <div class="col-lg-6 form-group">
+                        <label style="color: #000; "><strong>Age</strong></label>
+                        <input type="number" class="form-control p-4 req" id="age" placeholder="XX" required="required"
+                          data-validation-required-message="Please enter your Discord ID Username" />
+                        <p class="help-block text-danger"></p>
+                      </div>
+
+                      <div class="col-lg-6 form-group">
+                        <label style="color: #000; "><strong>Country</strong></label>
+                        <input type="text" class="form-control p-4 req" id="country" placeholder="India"
+                          required="required"
+                          data-validation-required-message="Please enter your the route link from tmp" />
+                        <p class="help-block text-danger"></p>
+                      </div>
+
+                      <div class="col-lg-6 form-group">
+                        <label style="color: #000; padding-left: 1.5rem;"><strong>Have you read all the rules?</strong></label>
+                            <input type="text" class="form-control p-4 req" id="rules" placeholder="Yes/No" required="required" data-validation-required-message="Please enter your choice" />
+                            <p class="help-block text-danger"></p>
+                    </div>
+              
+
+                      <div class="col-md-12 form-group">
+                        <label style="color: #000; "><strong>Steam Profile</strong></label>
+                        <input type="text" class="form-control p-4 req" id="steam"
+                          placeholder="https://steamcommunity.com/profiles/76561199121908387/" required="required"
+                          data-validation-required-message="Please enter your slot link" />
+                        <p class="help-block text-danger"></p>
+                      </div>
+
+                      
+                      <div class="form-group col-lg-6 ">
+                        <label style="color: #000;"><strong>Which Game Do You Have</strong></label>
+                        <input list="poss" class="form-control p-4 req" id="game" placeholder="" required="required"
+                          data-validation-required-message="Please enter your choice" onchange="yesnoCheck(this);" />
+                        <datalist id="poss">
+                          <option value="Microsoft Flight Simulator">
+                          <option value="X Plane">
+                       
+                        </datalist>
+
+                      </div>
+
+                      <div class="col-lg-6 form-group">
+                        <label style="color: #000; padding-left: 1.5rem;"><strong>How would you rate your flying skills?</strong></label>
+                            <input type="number" maxlength="2" class="form-control p-4 req" id="rate" placeholder="Rate [ Good-10 to Worst-1 ]" required="required" data-validation-required-message="Please enter your choice" />
+                            <p class="help-block text-danger"></p>
+                    </div>
+
+       
+                    <div class="col-md-12 form-group">
+                      <label style="color: #000; padding-left: 1.5rem;"><strong>Why did you choosed Nexon Logistics to join?</strong></label>
+                      <textarea class="form-control p-4 req" rows="1" minlength="100" id="nl" placeholder="Please specify in minimum 100 words" required="required" data-validation-required-message="Please enter Why do you want to join Nexon Logistics?"></textarea>
+                      <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="col-md-12 form-group">
+                      <label style="color: #000; padding-left: 1.5rem;"><strong>How did you hear about Nexon Logistics?</strong></label>
+                      <textarea class="form-control p-4 req" rows="1" id="hdnl" placeholder="Tell us how you get to know about Nexon" required="required" data-validation-required-message="Please enter how yo know about us?"></textarea>
+                      <p class="help-block text-danger"></p>
+                  </div>
+               
+                  <div class="col-md-12 form-group">
+                      <label style="color: #000; padding-left: 1.5rem;"><strong>What is your computer/laptop specification?</strong></label>
+                      <textarea class="form-control p-4 req" rows="1" id="spec" placeholder=" (Processor/RAM/Graphics Card)" required="required" data-validation-required-message="Please enter the time"></textarea>
+                      <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="col-md-12 form-group">
+                      <label style="color: #000; padding-left: 1.5rem;"><strong>Introduce Yourself </strong></label>
+                      <textarea class="form-control p-4 req" rows="1" minlength="100" id="iy" placeholder="Your introduction in minimum 100 words" required="required" data-validation-required-message="Please enter something about you"></textarea>
+                      <p class="help-block text-danger"></p>
+                  </div>
+
+                    <br>
+                    <div class="form-group col-md-12 ">
+                      <button class="btn btn-primary orange-button " type="submit"
+                        id="sendMessageButton">Submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; Nexon
+              Airlines, All Rights Reserved.</a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/swiper.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="/assets/js/script.js"></script>
+  <!-- <script>
+      var interleaveOffset = 0.5;
+
+      var swiperOptions = {
+        loop: true,
+        speed: 1000,
+        grabCursor: true,
+        watchSlidesProgress: true,
+        mousewheelControl: true,
+        keyboardControl: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        },
+        on: {
+          progress: function() {
+            var swiper = this;
+            for (var i = 0; i < swiper.slides.length; i++) {
+              var slideProgress = swiper.slides[i].progress;
+              var innerOffset = swiper.width * interleaveOffset;
+              var innerTranslate = slideProgress * innerOffset;
+              swiper.slides[i].querySelector(".slide-inner").style.transform =
+                "translate3d(" + innerTranslate + "px, 0, 0)";
+            }      
+          },
+          touchStart: function() {
+            var swiper = this;
+            for (var i = 0; i < swiper.slides.length; i++) {
+              swiper.slides[i].style.transition = "";
+            }
+          },
+          setTransition: function(speed) {
+            var swiper = this;
+            for (var i = 0; i < swiper.slides.length; i++) {
+              swiper.slides[i].style.transition = speed + "ms";
+              swiper.slides[i].querySelector(".slide-inner").style.transition =
+                speed + "ms";
+            }
+          }
+        }
+      };
+
+      var swiper = new Swiper(".swiper-container", swiperOptions);
+    </script> -->
+
+   <script>
+
+async function sendmail(ev) 
+        {
+            ev.preventDefault();
+       
+                   const senderName = document
+                       .getElementById('name').value;
+                   const senderEmail = document
+                       .getElementById('email').value;
+                   const senderDiscord = document
+                       .getElementById('discord').value;
+                   const senderSteam = document
+                       .getElementById('steam').value;
+                   const senderRule = document
+                       .getElementById('rules').value;
+                   const senderNl = document
+                       .getElementById('nl').value;
+                   const senderSpec = document
+                       .getElementById('spec').value;  
+                   const senderIy= document
+                       .getElementById('iy').value;
+                   const senderAge= document
+                       .getElementById('age').value;    
+                   const senderGame= document
+                       .getElementById('game').value;    
+                   const senderRate= document
+                       .getElementById('rate').value;       
+                   const senderHear= document
+                       .getElementById('hdnl').value;    
+                    const senderCountry = document
+                       .getElementById('country').value;        
+       
+       
+                   const webhookBody = {
+                       content: "**Application Form Submitted To**\n\n<@&981631078387306568><@&1015587540549521489> <@&1064713499055501334>",
+                              
+                       embeds: [{
+                           color: 8766529,
+                            
+                           fields: [
+                               { name: 'Name', value: senderName },
+                               { name: 'Email', value: senderEmail },
+                               { name: 'Age', value: senderAge },
+                               { name: 'Country', value: senderCountry },
+                               { name: 'Discord ID', value: senderDiscord },
+                               { name: 'Steam ID', value: senderSteam },
+                               { name: 'Rule', value: senderRule },
+                         
+                               { name: 'Game Availavble', value: senderGame },
+                               { name: 'Rating', value: senderRate },
+                               { name: 'Hear', value: senderHear },
+                               { name: 'Why NXL', value: senderNl },
+                               { name: 'Spec', value: senderSpec },
+                               { name: 'About', value: senderIy },
+                           ]
+                       }],
+                   };
+       
+                   const webhookUrl = 'https://discord.com/api/webhooks/1050611068810043493/Irtb4uOotcbBf9wOhZ6-jldafB0DVuYBOdW44vyRTDKaInohmz90vya511-U3nv38Ynr';
+       
+                   const response = await fetch(webhookUrl, {
+                       method: 'POST',
+                       headers: {
+                           'Content-Type': 'application/json',
+                       },
+                       body: JSON.stringify(webhookBody),
+                   });
+       
+                   if (response.ok) {
+                       alert('Thank you for applying in Nexon Airlines. We have received your application and one of our staff will contact you shortly. Click on the following link for discord [ https://discord.gg/DcRhhmg5BW ]');
+                   } else {
+                       alert('There was an error! Try again later!');
+                   }
+             }
+       
+               const form = document.getElementById('my_form');
+       
+       form.addEventListener('submit', function handleSubmit(event) {
+       event.preventDefault();
+       
+       form.reset();
+       });
+</script>
+
+</body>
+
+</html>
