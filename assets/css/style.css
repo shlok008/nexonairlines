@@ -1273,7 +1273,7 @@ page heading
 */
 
 .page-heading {
-  background-image: url(../images/slide-03.jpg);
+  background-image: url(../images/contact.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1977,4 +1977,28 @@ div.liveries img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.rounded {
+  border-radius: 5px !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+
+.position-absolute {
+  position: absolute !important;
+}
+.w-100 {
+  width: 100% !important;
 }
